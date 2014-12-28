@@ -21,5 +21,5 @@ defmodule PerfTest do
         )
         if responses != threads, do: raise "didn't get all responses"
         IO.puts responses
-    end     
+    end
 end
