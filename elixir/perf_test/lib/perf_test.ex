@@ -1,5 +1,5 @@
 defmodule PerfTest do
-    def main do
+    def main( _args ) do
         threads = 10000
         fib_depth = 11
 

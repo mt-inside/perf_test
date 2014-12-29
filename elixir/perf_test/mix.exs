@@ -5,8 +5,14 @@ defmodule PerfTest.Mixfile do
     [app: :perf_test,
      version: "0.0.1",
      elixir: "~> 1.0",
+     escript: escript,
      deps: deps]
   end
+
+  def escript do
+    [main_module: PerfTest]
+  end
+
 
   # Configuration for the OTP application
   #
